@@ -1,0 +1,51 @@
+.card{
+    width: 200px;
+    height: 230px;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    padding: 5px;
+}
+label{
+    font-weight: bold;
+    color:darkblue;
+    font-size:14px;
+    border-bottom: 0.5px solid darkblue;
+}
+form label{
+    border:none;
+}
+.card_name, .user_name{
+    text-align: center;
+}
+
+.star{
+    color: gold;
+    font-size: 14px;
+}
+
+form{
+    width: 250px;
+    height: 300px;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    padding: 5px;
+}
+
+input, textarea{
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+input:focus{
+    outline:none;
+}
+button{
+    border:none;
+    padding:5px;
+    border-radius: 5px;
+    background:darkblue;
+    color:white;
+    cursor: pointer;
+}
